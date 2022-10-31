@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>RyujiNX - Switch Emulator</title>
+      <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+      <!--[if lte IE 8]>
+      <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+      <![endif]-->
+      <!--[if gt IE 8]><!-->
+      <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+      <!--<![endif]-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.2/css/all.css">
+      <!--[if lte IE 8]>
+      <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+      <![endif]-->
+      <!--[if gt IE 8]><!-->
+      <link rel="stylesheet" href="../../css/layouts/marketing.css">
+      <!--<![endif]-->
+   </head>
+   <body class="content-normal">
+      <div class="header">
+         <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+            <ul class="pure-menu-list">
+               <li class="pure-menu-item pure-menu">Home</li>
+               <li class="pure-menu-item">WiKi</li>
+               <li class="pure-menu-item pure-menu-selected"><a href="../../building" class="pure-menu-link">Build</a></li>
+			   <li class="pure-menu-item"><a href="../../contributing" class="pure-menu-link">Contribute</a></li>
+               <div class="pure-menu-item">
+                  
+                     <li class="content-subhead">
+                        <i class="fab fa-1x fa-github"></i>
+                        GitHub
+                     </li>
+                  
+               </div>
+			   <div class="pure-menu-item">
+                  
+                     <li class="content-subhead">
+                        <i class="fab fa-1x fa-discord"></i>
+                        Discord
+                     </li>
+                  
+               </div>
+         </div>
+         </ul>
+      </div>
+       <div class="content">
+         <div align="center" class="content">
+            <h1 class="content-head is-center">Building RyujiNX (Windows only for now):</h1>
+            <p>Support for OSX and Linux is limited and not really recommended for use as of late.</br>
+               To get started; you will need Visual Studio 2015 or later. You will also need the .NET Core 2.0 or greater runtime installed.</p>
+               <div align="center" class="content"> 
+                  <h2>Step one:</h2>
+                  <p>Download the latest version of Visual Studio from here. Once you have that done, make sure to run the installer, and select the C# Language package(s) and NET Core 2.0.
+                  </p>
+                  </br>
+                  <h2>Step two: Variant one</h2>
+                  <p>After the installation of Visual Studio is done; go ahead and copy the Clone link from GitHub <a href="" target="_blank">(From here</a>~ via Clone or Download <b>--></b> Copy HTTPS Link. Or you can download the ZIP tarball.)
+                  </br>You can Git Clone the repo by using the GitBash, or you may use the second variant.</p>
+                  </br>
+                  <h2>Step two: Variant two</h2>
+                  <p>Download the ZIP Tarball. Then extract it to a directory of your choice.</p>
+                  </br>
+                  <h2>Step three:</h2>
+                  <p>Open the vsproj file in Visual Studio, wait for it load the solution; and then switch the Debug build type to release. Then build.
+                     </br>The build directory is "root/bin/release/etc/etc."
+                  </p>
+                  </br>
+                  <h2>Step four:</h2>
+                  <p>In order to run a NRO or NSO; simply drag the file onto the Executable. The app will launch, and the homebrew/application will begin emulation.
+                     </br>Do keep in mind, that emulation is finicky, and will most likely crash at some point.
+                  </p> 
+            </div>
+         </div>
+   </div>
+ </div>
+</body>
+</html>
